@@ -25,7 +25,7 @@ function buildTable(data) {
     });
   }
 
-// create a button to filter the data data
+// create a button to filter the data
 function handleClick() {
     // Grab the datetime value from the filter
     let date = d3.select("#datetime").property("value");
